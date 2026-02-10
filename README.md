@@ -4,8 +4,9 @@ The majority of bioinformatic software is written to be run using a Unix OS. Man
 
 ## Table of Contents
 1. [Basic commands to navigate a linux file system](https://github.com/SianGol/intro-to-command-line/blob/main/README.md#copying-and-moving-files-to-locations-elsewhere-in-the-filesystem)
-2. [Creating txt files](https://github.com/SianGol/intro-to-command-line/blob/main/README.md#creating-text-files)
+2. [Creating .txt files](https://github.com/SianGol/intro-to-command-line/blob/main/README.md#creating-text-files)
 3. [Piping commands together](https://github.com/SianGol/intro-to-command-line/blob/main/README.md#copying-and-moving-files-to-locations-elsewhere-in-the-filesystem)
+4. [Resources](https://github.com/SianGol/intro-to-command-line/blob/main/README.md#Resources)
 
 
 ## Basic commands to navigate a linux filesystem
@@ -64,7 +65,7 @@ pwd
 ```
 When navigating the command line it's important to remember the difference between absolute paths, which start from the root directory '/', or relative paths, which start from your work directory './'.
 
-## Creating text files
+## Creating .txt files
 
 In this example we're going to use 'nano', a simple text editor, to create a .txt file. This app could also be used to create bash shell (.sh) scripts, however, if you are going to be writing larger scripts in the future it would be better to use an alternative editor, such as VS code.
 
@@ -170,15 +171,13 @@ Finally, lets direct this output to a destination file. When creating files in l
 sort cities.txt | uniq | wc -l > cities_sorted.txt
 ```
 
+## Resources
+There are plenty of resources that go cover Linux/Unix commands in greater detail. If you want to dig deeper some potential starting points are:
 
+https://ryanstutorials.net/linuxtutorial/
 
-Note that you can't use your mouse to move the cursor to positions within your text, as you would in a MS word document. Instead you use arrow keys, or alternatively there are shortcuts which we'll go over later.
+https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/
 
+https://missing.csail.mit.edu/
 
-
-
-
-
-
-
-
+https://www.hostinger.co.uk/tutorials/linux-commands
