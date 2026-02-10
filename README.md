@@ -1,6 +1,6 @@
 # An introduction to the command line for linux machines
 
-The majority of bioinformatic software is written to be run using a Unix OS. Many are run from the command line interface (CLI) instead of using a graphical user interface (GUI) that you will be more familiar with. Understanding how to navigate the CLI is the first step to being comfortable with using CLI bioinformatic tools. Ultimately this allows you to have more control over working with large data, e.g. to view/edit/wrangle/filter, compared to using applications such as Microsoft Excel. In this tutorial we will go over some basic command line arguments that can be used to navigate the linux heirarchical directories.
+The majority of bioinformatic software is written to be run using a Unix OS. Many are run from the command line interface (CLI) instead of using a graphical user interface (GUI) that you will be more familiar with. Understanding how to navigate the CLI is the first step to being comfortable with using CLI bioinformatic tools. Ultimately this allows you to have more control over working with large data, e.g. to view/edit/wrangle/filter, compared to using applications such as Microsoft Excel. In this tutorial we will go over some basic command line arguments that can be used to navigate the linux filesystem.
 
 ## Table of Contents
 1. [Basic commands to navigate a linux file system](Basic-commands-to-navigate-a-linux-filesystem)
